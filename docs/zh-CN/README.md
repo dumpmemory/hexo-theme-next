@@ -15,7 +15,7 @@
 
 # NexT
 
-> «NexT» 是一款风格优雅的高质量 [Hexo](https://hexo.io) 主题，自点点滴滴中用爱雕琢而成。
+> NexT 是一款风格优雅的高质量 [Hexo](https://hexo.io) 主题，自点点滴滴中用爱雕琢而成。
 
 [![NPM version](https://img.shields.io/npm/v/hexo-theme-next?color=red&logo=npm&style=flat-square)](https://www.npmjs.com/package/hexo-theme-next)
 [![NPM Downloads](https://img.shields.io/npm/dm/hexo-theme-next?logo=npm&style=flat-square)](https://www.npmjs.com/package/hexo-theme-next)
@@ -31,7 +31,7 @@
   💟 <a href="https://theme-next.js.org/muse/">Muse</a> | 🔯 <a href="https://theme-next.js.org/mist/">Mist</a> | ♓️ <a href="https://theme-next.js.org/pisces/">Pisces</a> | ♊️ <a href="https://theme-next.js.org">Gemini</a>
 <br>
 <br>
-  更多 «NexT» 的例子参见<a href="https://github.com/next-theme/awesome-next#live-preview">这里</a>。
+  更多 NexT 的例子参见<a href="https://github.com/next-theme/awesome-next#live-preview">这里</a>。
 </p>
 
 ## 安装
@@ -39,15 +39,15 @@
 如果你在使用 Hexo 5.0 或更新版本，最简单的安装方式是通过 npm：
 
 ```sh
-$ cd hexo-site
-$ npm install hexo-theme-next
+cd hexo-site
+npm install hexo-theme-next
 ```
 
 你也可以直接克隆整个仓库：
 
 ```sh
-$ cd hexo-site
-$ git clone https://github.com/next-theme/hexo-theme-next themes/next
+cd hexo-site
+git clone https://github.com/next-theme/hexo-theme-next themes/next
 ```
 
 此外，如果你想要使用其他方式，请参见[详细安装步骤][docs-installation-url]。
@@ -97,23 +97,31 @@ NexT 每个月都会发布新版本。请在更新前阅读[更新说明][docs-r
 通过 npm 安装最新版本：
 
 ```sh
-$ cd hexo-site
-$ npm install hexo-theme-next@latest
+cd hexo-site
+npm install hexo-theme-next@latest
 ```
 
 或者通过 git 更新到最新的 master 分支：
 
 ```sh
-$ cd themes/next
-$ git pull
+cd themes/next
+git pull
 ```
 
 **如果你想要从 v5.x / v7.x 更新到最新版本，阅读[这篇文档][docs-upgrade-url]。**
 
+## 社区
+
+与我们联系并成为我们日益壮大的社区的一部分！
+
+* **Telegram 群组（中文）**：[点击此处加入！](https://t.me/theme_next_cn)
+* **Discord 服务器**：[加入我们的 Discord！](https://discord.gg/qmkgkY3jaG)
+* **Gitter**：[加入我们的 Gitter 聊天！][gitter-url]
+
 ## 反馈
 
 * 浏览 [Awesome NexT][awesome-next-url] 列表，与其它用户分享插件和教程。
-* 加入我们的 [GitHub discussions][discussions-url] / [Gitter][gitter-url] 聊天。
+* 加入我们的 [GitHub discussions][discussions-url]。
 * 请花几秒钟来[添加或修正翻译][i18n-url]。
 * 在 [GitHub Issues][issues-bug-url] 报告Bug。
 * 在 [GitHub][issues-feat-url] 请求新的功能。
@@ -131,7 +139,7 @@ $ git pull
 
 ## 鸣谢
 
-«NexT» 特别感谢这些支持我们核心基础设施的优质服务：
+NexT 特别感谢这些支持我们核心基础设施的优质服务：
 
 <a href="https://github.com"><img height="40" src="https://github.githubassets.com/images/modules/logos_page/GitHub-Logo.png"></a>
 
@@ -147,7 +155,13 @@ $ git pull
 
 > Netlify 容许我们发布文档。
 
-<a href="https://crowdin.com"><img height="40" src="https://support.crowdin.com/assets/logos/crowdin-logo-small-black.svg"></a>
+<a href="https://crowdin.com">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" height="40" srcset="https://support.crowdin.com/assets/logos/core-logo/svg/crowdin-core-logo-cWhite.svg">
+    <source media="(prefers-color-scheme: light)" height="40" srcset="https://support.crowdin.com/assets/logos/core-logo/svg/crowdin-core-logo-cDark.svg">
+    <img alt="Netlify Logo" height="40" src="https://support.crowdin.com/assets/logos/core-logo/svg/crowdin-core-logo-cDark.svg">
+  </picture>
+</a>
 
 > Crowdin 容许我们方便地翻译文档。
 
